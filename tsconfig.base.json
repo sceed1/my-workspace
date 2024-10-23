@@ -1,0 +1,17 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2023",
+    "module": "ES2022",
+    "lib": ["ES2023", "dom"],
+    "baseUrl": ".",
+    "paths": {
+      "@blafasel/common": ["libs/shared/common/src/index.ts"]
+    }
+  }
+}
